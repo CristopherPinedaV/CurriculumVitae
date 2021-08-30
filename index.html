@@ -1,162 +1,550 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Curriculum Vitae</title> 
-    <h1 style="text-align:center">CURRICULUM VITAE</h1>
-    <h1 style="text-align:center"><i>Cristopher Pineda Vicencio</i></h1>
-</head>
-<body >
-    <img id="imgr"src="profile_picture.jpg" width="20%" alt="Cristopher Pineda" align="right" >
-    <br><b><big>Contact information</big></b><br>
-    <ul>
-        <li><i>Phone:</i> 3314828396.</li>
-        <li><i>Age:</i> 22 years old.</li> 
-        <li><i>Social Media:</i> 
-            <a href="https://www.facebook.com/lCristopherl/"> Facebook</a>, 
-            <a href="https://www.linkedin.com/in/cristopher-pineda-vicencio-44a777215/">  LinkedIn</a></li> 
-        <li><i>Nationality:</i> Mexican.</li> 
-        <li><i>Current city:</i> Guadalajara, Jalisco.</li>
-    </ul> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Curriculum Vitae</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#software" class="nav__link">Softwares</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Cristopher</span><br> Pineda Vicencio</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/cristopher-pineda-vicencio-44a777215/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.facebook.com/lCristopherl/" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://github.com/CristopherPinedaV/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profile_picture.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Cristopher</h2>
+                        <p class="about__text">Student of the Computer Engineering career at the University Center for Exact Sciences of the University of Guadalajara, my development is in the specialty of creating software and networks, where I apply my knowledge to design, configure and manage computer networks to create connectivity solutions although my interest is based more on systems development.
+                        <br>
+                        <h2 class="about__subtitle">Professional interests</h2>
+                        <p class="about__text">I like high-level programming and everything related to the software area, I am interested in learning more and more and I won't stop until I carry out a project that can cause an impact in the world.</p>           
+                        <br>
+                        <h2 class="about__subtitle">Languages</h2>
+                        
+                        <div class="skills__container bd-grid">          
+                            <div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bx-book-bookmark skills__icon'></i>
+                                        <span class="skills__name"> Native Spanish </span>
+                                    </div>
+                                    <div class="skills__bar skills__spanish">
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage"> 90%</span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__names">
+                                        <i class='bx bx-book-bookmark skills__icon'></i>
+                                        <span class="skills__name">English</span>
+                                    </div>
+                                    <div class="skills__bar skills__english">
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="skills__percentage">60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== EDUCACTION =====-->
+            <section class="education section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="about__container bd-grid2">
+                    <div>
+                        <table  class="about__education_table">
+                            <tr>
+                              <th><h3 class="about__subtitle">COMPUTER ENGINEERING</h3></th>
+                              <th><h3 class="about__subtitle"> &nbsp CENTRO UNIVERSITARIO DE CIENCIAS EXACTAS E INGENIERIAS</h3></th>  
+                            </tr>
+                            <tr>
+                              <td><p class="about__text">2017 - CURRENTLY</p></td>
+                              <td><p class="about__text"> &nbsp Future bachelor's certificate. Current  student  of  the  eighth  semester  of  the career.</p></td> 
+                            </tr> 
+                            <tr>
+                            <th><h3 class="about__subtitle">TECHNICIAN IN PROGRAMMING</h3></th>
+                            <th><h3 class="about__subtitle"> &nbsp CBTIS NO.52</h3></th>  
+                            </tr>
+                            <tr>
+                            <td><p class="about__text">2014 - 2017</p></td>
+                            <td><p class="about__text"> &nbsp Certificate of Higher Middle Level Education. Programming Technician Title.</p></td> 
+                            </tr> 
+                            <tr>
+                              <th><h3 class="about__subtitle">COMPUTATING FUNDAMENTALS</h3></th>
+                              <th><h3 class="about__subtitle"> &nbsp ESCUELA SECUNDARIA NO.106 ESPAÑA</h3></th>  
+                            </tr>
+                            <tr>
+                              <td><p class="about__text">2011 - 2014</p> </td>
+                              <td><p class="about__text">&nbsp Certificate of High School. Basic computation knowledge. </p> </td> 
+                            </tr>
+                          </table><br> 
+                    </div>                                 
+                 </div>
+                
+            </section>
+
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Teamwork</span>
+                            </div>
+                            <div class="skills__bar skills__teamwork">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Responsibility</span>
+                            </div>
+                            <div class="skills__bar skills__responsibility">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Self-learning attitude</span>
+                            </div>
+                            <div class="skills__bar skills__self-learning-attitude">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Empathic</span>
+                            </div>
+                            <div class="skills__bar skills__empathic">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Schedule availability</span>
+                            </div>
+                            <div class="skills__bar skills__schedule-availability">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Ease of speaking with clients</span>
+                            </div>
+                            <div class="skills__bar skills__ease-of-speaking-with-clients">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Leadership strategies</span>
+                            </div>
+                            <div class="skills__bar skills__leadership-strategies">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Maximum effort in jobs</span>
+                            </div>
+                            <div class="skills__bar skills__maximum-effort-in-jobs">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">100%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Creativity</span>
+                            </div>
+                            <div class="skills__bar skills__creativity">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-clipboard skills__icon' ></i>
+                                <span class="skills__name">Agility in problem solving</span>
+                            </div>
+                            <div class="skills__bar skills__agility-in-problem-solving">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work1.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid2    ">
+                    <table  class="about__education_table">
+                        <tr>
+                          <th><h3 class="about__subtitle">INTERN</h3></th>
+                          <th><h3 class="about__subtitle"> &nbsp IBM</h3></th>  
+                        </tr>
+                        <tr>
+                          <td><p class="about__text">2021 - CURRENTLY</p></td>
+                          <td><p class="about__text"> &nbsp Working as a Java full stack developer.</p></td> 
+                        </tr>
+                      
+                        <tr>
+                        <th><h3 class="about__subtitle">TECHNICIAN</h3></th>
+                        <th><h3 class="about__subtitle"> &nbsp OCESA</h3></th>  
+                        </tr>
+                        <tr>
+                        <td><p class="about__text">2014 - 2017</p></td>
+                        <td><p class="about__text"> &nbsp Installation of cabling to provide connection of computer networks with  <br>structured RJ45 cabling in order to provide internet service at events with large numbers of attendees.</p></td> 
+                        </tr>
+                    </table><br> 
+                </div>
+            </section>
+
+              <!--===== PROJECT =====-->
+              <section class="project section" id="project">
+                <h2 class="section-title">Project Experience</h2>
+
+                <div class="project__container bd-grid">
+                    <table  class="about__education_table">
+                        <tr>
+                            <th><h3 class="about__subtitle">SECOND PLACE</h3></th>
+                            <th><h3 class="about__subtitle"> &nbsp SOFTWARE DEVELOPMENT PROTOTYPE STATE COMPETITION AT THE MICHOACÁN STATE IN MEXICO</h3></th>  
+                            </tr>
+                            <tr>
+                            <td><p class="about__text">2017</p></td>
+                            <td><p class="about__text"> &nbsp Mobile application that contains a vocational test that supports students to show them their 
+                                strongest areas, the careers in these areas and the closest universities of the career via
+                            geolocation according to their results</p></td> 
+                        </tr>
+                        <tr>
+                          <th><h3 class="about__subtitle">THIRD PLACE</h3></th>
+                          <th><h3 class="about__subtitle">  &nbsp SOFTWARE DEVELOPMENT PROTOTYPE STATE COMPETITION AT THE GUERRERO STATE IN MEXICO</h3></th>  
+                        </tr>
+                        <tr>
+                          <td><p class="about__text">2016</p></td>
+                          <td><p class="about__text">  &nbsp Installation of cabling to provide connection of computer networks with structured RJ45 cabling in order to provide internet service at events with large numbers of attendees.</p></td> 
+                        </tr>
+                      
+                        
+                    </table><br> 
+                </div>
+                </div>
+            </section>
+
+
+            <!--===== Known softwares =====-->
+            <section class="software section" id="software">
+                <h2 class="section-title">Known softwares</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>              
+                        <img src="assets/img/work2.jpg" alt="" class="skills__img">
+                    </div>
+                    <div> 
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">NetBeans</span>
+                            </div>
+                            <div class="skills__bar skills__NetBeans">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">Visual Studio Code</span>
+                            </div>
+                            <div class="skills__bar skills__vsc">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">PyCharm </span>
+                            </div>
+                            <div class="skills__bar skills__Pycharm">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">CodeBlocks </span>
+                            </div>
+                            <div class="skills__bar skills__CodeBlocks">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">Qt</span>
+                            </div>
+                            <div class="skills__bar skills__Qt">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">MySQL </span>
+                            </div>
+                            <div class="skills__bar skills__MySQL">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">Word </span>
+                            </div>
+                            <div class="skills__bar skills__Word">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">Excel</span>
+                            </div>
+                            <div class="skills__bar skills__Excel">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">PowerPoint </span>
+                            </div>
+                            <div class="skills__bar skills__Powerpoint ">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-curly skills__icon'></i>
+                                <span class="skills__name">Access </span>
+                            </div>
+                            <div class="skills__bar skills__Access">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="work__container bd-grid2">
+                    <div>
+                    <h2 class="about__subtitle">Personal references</h2>
+                    
+                    <p class="about__text">
+                            <i>Oscar Luis Pineda Vicencio  |  Brother </i>  
+                        <ul class="final_list" >
+                            <li><i>Age:</i> 26 years old.</li>  
+                            <li><i>Occupation:</i> Employee at Jose Cuervo.</li> 
+                            <li><i>Current city:</i> Guadalajara, Jalisco.</li>
+                        </ul>
+                        <br>
+                         <ul class="final_list">
+                            <i>Magnolia Vicencio de la O  |  Mother</i>          
+                             <li><i>Age:</i> 48 years old.</li>  
+                             <li><i>Occupation:</i> Housewife</li> 
+                             <li><i>Current city:</i> Zamora, Michoacan.</li>
+                         </ul> 
+                    </p>   
+                    <br>
+                     </div>
+                     <div>
+                    <h2 class="about__subtitle">Contact Information</h2>
+                    <p class="about__text">
+                        <ul class="final_list">
+                        <li><i>Phone:</i> 3314828396.</li>
+                        <li><i>Age:</i> 22 years old.</li> 
+                        <li><i>Social Media:</i> 
+                            <a href="https://www.facebook.com/lCristopherl/"> Facebook</a>, 
+                            <a href="https://www.linkedin.com/in/cristopher-pineda-vicencio-44a777215/">  LinkedIn</a></li> 
+                        <li><i>Nationality:</i> Mexican.</li> 
+                        <li><i>Current city:</i> Guadalajara, Jalisco.</li>
+                    </ul> 
+
+                     </p>    
+                    </div>       
+                     <br>       
+
+                </div>   
+                 
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
         
-                  
-    <b><big>Education</big></b><br><br> 
-    <table>
-      <tr>
-        <th>COMPUTER ENGINEERING</th>
-        <th> &nbsp CENTRO UNIVERSITARIO DE CIENCIAS EXACTAS E INGENIERIAS</th>  
-      </tr>
-      <tr>
-        <td>2017 - CURRENTLY</td>
-        <td> &nbsp Future bachelor's certificate. Current  student  of  the  eighth  semester  of  the career</td> 
-      </tr>
-    </table><br> 
+
+    <div class="footer2">
+
+    <!--Content before waves-->
+    <div class="inner-header flex"> 
+        <h3 class="about__text">| CRISTOPHER PINEDA VICENCIO | 2021 | Free to use </p></td>
+    </div>
     
-    <table>
-      <tr>
-        <th>TECHNICIAN IN PROGRAMMING</th>
-        <th> &nbsp CBTIS NO.52</th>  
-      </tr>
-      <tr>
-        <td>2014 - 2017</td>
-        <td> &nbsp Certificate of Higher Middle Level Education. Programming Technician Title. </td> 
-      </tr>
-    </table><br> 
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
     
-    <table>
-      <tr>
-        <th>COMPUTATING FUNDAMENTALS</th>
-        <th> &nbsp ESCUELA SECUNDARIA NO.106 ESPAÑA</th>  
-      </tr>
-      <tr>
-        <td>2011 - 2014</td>
-        <td> &nbsp Certificate of High School. Basic computation knowledge. </td> 
-      </tr>
-    </table><br> 
-    
-    <b><big>Skills</big></b><br> 
-    <ul>
-        <li>Teamwork (90%)</li> 
-        <li>Responsibility. (100%)
-        <li>Self-learning attitude. (95%)
-        <li>Empathic. (90%)  
-        <li>Schedule availability. (90%)
-        <li>Ease of speaking with clients. (90%)
-        <li>Leadership strategies. (95%) 
-        <li>Maximum effort in jobs. (100%) 
-        <li>Creativity. (90%)
-        <li>Agility in problem solving (90%)
-    </ul> 
-    
-    
-     <b><big>Work Experience</big></b><br><br> 
-    <table>
-      <tr>
-        <th>INTERN</th>
-        <th> &nbsp IBM</th>  
-      </tr>
-      <tr>
-        <td>2021 - CURRENTLY</td>
-        <td> &nbsp Working as a Java full stack developer</td> 
-      </tr>
-    </table><br> 
-    
-    <table>
-      <tr>
-        <th>TECHNICIAN</th>
-        <th> &nbsp OCESA</th>  
-      </tr>
-      <tr>
-        <td>2019 - 2020</td>
-        <td> &nbsp Installation of cabling to provide connection of computer networks with  <br>structured RJ45 cabling in order to provide internet service at events with large numbers of attendees </td> 
-      </tr>
-    </table><br> 
-    
-        
-     <b><big>Project Experience</big></b><br><br> 
-    <table>
-      <tr>
-        <th>SECOND PLACE </th>
-        <th> &nbsp SOFTWARE DEVELOPMENT PROTOTYPE STATE COMPETITION AT THE MICHOACÁN STATE IN MEXICO</th>  
-      </tr>
-      <tr>
-        <td>2017</td>
-        <td> &nbsp Mobile application that contains a vocational test that supports students to show them their 
-                    strongest areas, the careers <br>in these areas and the closest universities of the career via
-                geolocation according to their results</td> 
-      </tr>
-    </table><br> 
-    
-    <table>
-      <tr>
-        <th>THIRD PLACE</th>
-        <th> &nbsp SOFTWARE DEVELOPMENT PROTOTYPE STATE COMPETITION AT THE GUERRERO STATE IN MEXICO</th>  
-      </tr>
-      <tr>
-        <td>2016</td>
-        <td> &nbsp Installation of cabling to provide connection of computer networks with structured RJ45 cabling in order to provide internet <br> service at events with large numbers of attendees </td> 
-      </tr>
-    </table><br> 
-	
-	 <b><big>Professional interests</big></b><br><br> 
-	 I like high-level programming and everything related to the software area, I am interested in learning more and more and I won't stop until I carry out a project that can cause an impact in the world.<br> <br> 
-	 
-	 
-	 
-	 <b><big>Known softwares</big></b><br> 
-    <ul>
-        <li>NetBeans (80%)</li> 
-        <li>Visual Studio Code (75%)</li>
-        <li>Pycharm (55%)</li>  
-        <li>CodeBlocks (65%)</li> 
-        <li>Qt(65%)</li> 
-        <li>MySQL (75%)</li> 
-        <li>Word (75%)</li> 
-        <li>Excel(75%)</li> 
-        <li>PowerPoint (75%)</li> 
-        <li>Acces (75%)</li> 
-     </ul>  
-	 
-	 
-	 <b><big>Languages</big></b><br> 
-    <ul>
-        <li>Native Spanish (90%)</li> 
-        <li>Intermediate technical English.    (550 points in toeflt itp). (60%)
-     </ul> 
-     
-     
-    <br><b><big>Personal references</big></b><br>
-    <ul>
-       <li><i>Oscar Luis Pineda Vicencio  |  Brother</li> 
-        <li><i>Age:</i> 26 years old.</li>  
-        <li><i>Occupation:</i> Employee at Jose Cuervo.</li> 
-        <li><i>Current city:</i> Guadalajara, Jalisco.</li>
-    </ul> 
-    <ul>
-       <li><i>Magnolia Vicencio de la O  |  Mother</li>           
-        <li><i>Age:</i> 48 years old.</li>  
-        <li><i>Occupation:</i> Housewife</li> 
-        <li><i>Current city:</i> Zamora, Michoacan.</li>
-    </ul> 
-</body>
+    </div>
+    <!--Header ends--> 
+ 
+    </body>
 </html>
